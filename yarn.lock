@@ -458,7 +458,7 @@
     "@types/whatwg-url" "^8.2.1"
     "whatwg-url" "^11.0.0"
 
-"mongodb@^5.6.0", "mongodb@5.6.0":
+"mongodb@5.6.0":
   "integrity" "sha512-z8qVs9NfobHJm6uzK56XBZF8XwM9H294iRnB7wNjF0SnY93si5HPziIJn+qqvUR5QOff/4L0gCD6SShdR/GtVQ=="
   "resolved" "https://registry.npmjs.org/mongodb/-/mongodb-5.6.0.tgz"
   "version" "5.6.0"
