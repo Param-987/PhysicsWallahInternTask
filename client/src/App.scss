@@ -1,0 +1,16 @@
+.App{
+    background-color: #F7F1E5;   
+    
+    .Appcontainer{
+        display: flex;
+        margin-top: 10px;
+        .content{
+            flex: 4;
+        }
+    }
+
+}
+
+body{
+    overflow: hidden;
+}

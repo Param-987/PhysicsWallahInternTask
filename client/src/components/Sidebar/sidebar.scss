@@ -1,0 +1,42 @@
+.SideContainer {
+  margin-left: 10px;
+  margin-top: 8px;
+  .search-left {
+    flex: 1;
+    display: flex;
+    margin-bottom: 10px;
+    .options {
+      cursor: pointer;
+      text-align: center;
+      width: 120px;
+      align-items: center;
+      font-size: 20px;
+      padding: 8px;
+      border-radius: 10px;
+      box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
+        rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    }
+
+    .active {
+      border-radius: 8%;
+      background-color: blue;
+      color: #fff;
+    }
+  }
+  .sidebar {
+    width: 415px;
+    height: 80vh;
+    overflow-y: scroll;
+    padding: 3px;
+  }
+
+  ::-webkit-scrollbar {
+    width: 0;
+  }
+  ::-webkit-scrollbar-track {
+    background-color: #f1f1f1;
+  }
+  ::-webkit-scrollbar-thumb {
+    background-color: #888;
+  }
+}

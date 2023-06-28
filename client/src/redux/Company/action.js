@@ -1,0 +1,19 @@
+export const GET_COMPANY_START  = "GET_OPENINGS_START"
+export const GET_COMPANY_SUCCESS  = "GET_OPENINGS_SUCCESS"
+export const GET_COMPANY_FAILURE  = "GET_OPENINGS_FAILURE"
+
+export const GET_COMPANY_ID_START  = "GET_OPENINGS_ID_START"
+export const GET_COMPANY_ID_SUCCESS  = "GET_OPENINGS_ID_SUCCESS"
+export const GET_COMPANY_ID_FAILURE  = "GET_OPENINGS_ID_FAILURE"
+
+// GetAll
+export const FETCH_COMPANY_START = () => ({type:GET_COMPANY_START})
+export const FETCH_COMPANY_SUCCESS = (data) => ({type:GET_COMPANY_SUCCESS,payload:data})
+export const FETCH_COMPANY_FAILURE = () => ({type:GET_COMPANY_FAILURE})
+
+// Get by Id
+export const FETCH_COMPANY_ID_START = () => ({type:GET_COMPANY_ID_START})
+export const FETCH_COMPANY_ID_SUCCESS = (data) => ({type:GET_COMPANY_ID_SUCCESS,payload:data})
+export const FETCH_COMPANY_ID_FAILURE = () => ({type:GET_COMPANY_ID_FAILURE})
+
+
