@@ -7,7 +7,7 @@ export const getAllOpening = () => {
     return async (dispatch) => {
         try {
             dispatch(FETCH_OPENING_START())
-            const response = await axios.get("http://localhost:5000/api/opening")
+            const response = await axios.get("https://interntaskpw.onrender.com/api/opening")
             dispatch(FETCH_OPENING_SUCCESS(response.data))
 
         } catch (error) {
@@ -18,7 +18,7 @@ export const getAllOpening = () => {
 export const getRandom = async () => {
     try {
         // dispatch(FETCH_COMPANY_ID_START())
-        return await axios.get("http://localhost:5000/api/opening/random").then((res) => res.data)
+        return await axios.get("https://interntaskpw.onrender.com/api/opening/random").then((res) => res.data)
         // console.log(response.data)
         // dispatch(FETCH_COMPANY_ID_SUCCESS(response.data))
     } catch (error) {

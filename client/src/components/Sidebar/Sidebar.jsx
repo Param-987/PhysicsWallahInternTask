@@ -12,7 +12,7 @@ const Sidebar = ({ onPropChange }) => {
   const dispatch = useDispatch();
   useEffect(() => {
     openingList.length === 0 && dispatch(getAllOpening());
-  }, [dispatch,openingList]);
+  }, [dispatch,openingList.length]);
 
   // const [list,setList] = useState([])
   console.log(showingList,openingList)
